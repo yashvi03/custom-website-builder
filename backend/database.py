@@ -5,9 +5,12 @@ from fastapi import HTTPException
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.exc import SQLAlchemyError
+from dotenv import load_dotenv
 import os
 
-URL_DATABASE = 'postgresql://postgres:Yashvi%402003@localhost:5432/form'
+load_dotenv()
+
+URL_DATABASE = os.getenv('URL_DATABASE')
 
 Base = declarative_base()
 
