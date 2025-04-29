@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import CareerGrid from "../pages/CareerGrid";
-import HomePage from "../pages/Homepage";
+import HomePage from "../pages/HomePage";
 import { useEffect, useState } from "react";
 import axiosInstance from "../services/axiosInstance";
 import { useNavigate } from "react-router-dom";

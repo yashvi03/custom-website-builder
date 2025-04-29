@@ -23,7 +23,7 @@ const HomePage = ({ data, edit }) => {
       <div className="relative text-center">
         <img
           className="h-screen w-full "
-          src={`http://localhost:8000/${image}`}
+          src={`https://custom-website-builder.onrender.com/${image}`}
           alt="img"
         />
         <div className="absolute inset-0 bg-black opacity-65"></div>
